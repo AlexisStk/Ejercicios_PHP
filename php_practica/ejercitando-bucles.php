@@ -63,9 +63,36 @@ $ceu = [
             echo "<li>$valor</li>";
         };
     }
- 
+
+    echo "<hr>";
+
+    //Ejercicio 6 Tabal de multiplicar
+
+    for ($i=0; $i <= 10 ; $i++) { 
+        echo "2x$i =" . $i*2 . "<br>";
+    }
+
+    echo "<hr>";
 
 
+    //Ejercicio 7 devuelve el doble del valor aleatorio
 
+    $contador = rand(1,5);
+
+    while ($contador <=5) {
+        echo $contador * 2 . "<br>";
+        $contador++;
+        
+    }
+    echo "<hr>";
+    //ejercicio 8 se tira el dado hasta que salga cara(1)..
+    
+    $contador = 0;
+    do {
+        $dado = rand(0,1);
+        $contador++;
+    } while ($dado !== 1);
+
+    echo "salio $dado y se tiro $contador veces el dado";
 
 ?>
