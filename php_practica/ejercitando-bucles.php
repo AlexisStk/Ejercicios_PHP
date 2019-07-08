@@ -95,4 +95,47 @@ $ceu = [
 
     echo "salio $dado y se tiro $contador veces el dado";
 
+    echo "<hr>";
+
+    //Ejercicio 9 recorriendo un array usando distintos iteradores
+
+    $nombres = ["Alexis","Gustavo","Ulises","Angela","Juan"];
+                //*********** usando For ********/
+    
+    
+    // for($i = 0; $i < count($nombres);$i++ ){
+    //     echo $nombres[$i] . "<br>";
+    // }
+    
+                
+//********************* */usando while********************//
+    $a=0;
+    
+    while ($a < count($nombres)) {
+        echo $nombres[$a] . "<br>" ;
+       $a++; 
+    }
+
+                
+//*************************usando do while*********************//
+    // $b=0;
+
+    // do {
+    //     echo $nombres[$b] . "<br>";
+    //    $b++;
+    // } while ($b < count($nombres));
+
+
+//******************** usando ForEACH **********************/
+
+// foreach ($nombres as $valor) {
+//     echo $valor . "<br> ";
+// }
+
+
+//Ejercicio 10 imprimir todos los numeros amenos que salga el 5
+
+
+
+
 ?>
